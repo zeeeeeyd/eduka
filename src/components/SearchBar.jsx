@@ -18,7 +18,7 @@ const SearchBar = () => {
         onChange={handleInputChange}
       />
       <button
-        className={`flex justify-center items-center p-2 rounded-full focus-within:border-none ${inputValue ? 'bg-white' : 'bg-zinc-700'}`}
+        className={`flex justify-center items-center p-2 rounded-full focus-within:border-none ${inputValue ? 'bg-white' : 'bg-gray-300'}`}
       >
         <CiSearch size={25} />
       </button>
