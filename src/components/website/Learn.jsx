@@ -1,7 +1,7 @@
 import React, { useRef, useEffect } from 'react';
 import gsap from 'gsap';
-import Card from './shared/Card';
-import { rightImg } from '../utils';
+import Card from '../shared/Card';
+import { rightImg } from '../../utils';
 
 const Learn = () => {
     
@@ -27,7 +27,7 @@ const Learn = () => {
   }, []);
 
   return (
-    <div className='px-4 sm:px-10 md:px-20 lg:px-40 py-10 sm:py-16 md:py-20 flex flex-col justify-center gap-5'>
+    <div className='px-2 sm:px-10 md:px-10 lg:px-20 py-10 sm:py-16 md:py-20 flex flex-col justify-center gap-5'>
       <h1 id='title' className="section-heading">
         Are you ready to learn more?
       </h1>

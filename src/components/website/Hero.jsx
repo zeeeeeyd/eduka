@@ -14,7 +14,7 @@ const Hero = () => {
     });
 
     tl.from("#first", { duration: 1, y: 200, opacity: 0, delay: 1 })
-      .to("#first", { y: 0, duration: 1, opacity: 1, delay: 0.5 })
+      .to("#first", { y: -100, duration: 1, opacity: 1, delay: 0.5 })
       .to("#first", { y: -500, duration: 1, opacity: 0, delay: 0.5 });
   }, []);
 
@@ -22,7 +22,7 @@ const Hero = () => {
     hidden: { opacity: 0, y: 20 },
     visible: (i) => ({
       opacity: 1,
-      y: -40,
+      y: -100,
       transition: {
         duration: 0.5,
         delay: i * 0.3,
@@ -49,8 +49,8 @@ const Hero = () => {
 
   return (
     <div className="w-full h-[100vh] flex flex-col justify-center items-center relative">
-      <h1 id="first" className="text-8xl opacity-0">Let us make it Easy!</h1>
-      <div id="second" className="text-6xl max-w-screen-xl text-center flex flex-wrap justify-center">
+      <h1 id="first" className="text-6xl opacity-0">Let us make it Easy!</h1>
+      <div id="second" className="text-3xl max-w-screen-md text-center flex flex-wrap justify-center">
         {isH1Animated && words.map((word, index) => (
           <motion.span
             key={index}
@@ -65,7 +65,7 @@ const Hero = () => {
           </motion.span>
         ))}
       </div>
-      <h1 id="third" className="text-8xl opacity-0">useCoursia</h1>
+      <h1 id="third" className="text-6xl opacity-0 absolute top-48">useCoursia</h1>
     </div>
   );
 };

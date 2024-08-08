@@ -1,8 +1,8 @@
 import React from 'react'
 
-const CustomeButton = ({title, backgroundColor, handleClick}) => {
+const CustomeButton = ({title, handleClick}) => {
   return (
-    <button className={`px-7 py-4 rounded-full text-white text-lg bg-blue hover:bg-blue-700`} onClick={handleClick}>
+    <button className={`px-5 py-3 rounded-full text-white text-sm bg-blue hover:bg-blue-700`} onClick={handleClick}>
         {title}
     </button>
   )

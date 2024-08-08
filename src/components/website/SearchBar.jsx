@@ -9,7 +9,7 @@ const SearchBar = () => {
   };
 
   return (
-    <div className='w-full md:w-[20vw] flex justify-between gap-2 items-center border rounded-full p-2'>
+    <div className='w-full md:w-[20vw] flex justify-between gap-2 items-center border rounded-full p-1'>
       <input
         type="search"
         placeholder='Search'
@@ -20,7 +20,7 @@ const SearchBar = () => {
       <button
         className={`flex justify-center items-center p-2 rounded-full focus-within:border-none ${inputValue ? 'bg-white' : 'bg-gray-300'}`}
       >
-        <CiSearch size={25} />
+        <CiSearch size={18} />
       </button>
     </div>
   );

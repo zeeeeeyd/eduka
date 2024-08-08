@@ -3,8 +3,9 @@ import play from "../assets/images/play.svg";
 import pause from "../assets/images/pause.svg";
 import watch from "../assets/images/watch.svg";
 import right from "../assets/images/right.svg";
-import cover from "../assets/images/angeela.jpeg"
-import star from "../assets/images/star.svg"
+import cover from "../assets/images/angeela.jpeg";
+import star from "../assets/images/star.svg";
+import signin from "../assets/images/sign.jpg";
 
 import highlightFirstmv from "../assets/videos/first.mp4";
 import highlightSectmv from "../assets/videos/second.mp4";
@@ -19,6 +20,7 @@ export const watchImg = watch;
 export const rightImg = right;
 export const coverPic = cover;
 export const starImg = star;
+export const SignImg = signin;
 
 export const highlightFirstVideo = highlightFirstmv;
 export const highlightSecondVideo = highlightSectmv;
