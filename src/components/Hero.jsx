@@ -22,7 +22,7 @@ const Hero = () => {
     hidden: { opacity: 0, y: 20 },
     visible: (i) => ({
       opacity: 1,
-      y: -20,
+      y: -40,
       transition: {
         duration: 0.5,
         delay: i * 0.3,
@@ -40,7 +40,7 @@ const Hero = () => {
           gsap.set("#second", { display: "none" });
           gsap.fromTo("#third", 
             { y: -40, scale: 0.5, opacity: 0 },
-            { scale: 1, opacity: 1, duration: 1, ease: 'back.out(1.7)' }
+            { y: -40, scale: 1, opacity: 1, duration: 1, ease: 'back.out(1.7)' }
           );
         }
       });

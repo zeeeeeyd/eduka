@@ -32,7 +32,7 @@ export const hightlightsSlides = [
         "New tests every time",
       ],
       video: highlightThirdVideo,
-      videoDuration: 4,
+      videoDuration: 3.8,
     },
     {
       id: 4,
