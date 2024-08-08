@@ -26,6 +26,9 @@ const SignIn = () => {
 
     return (
         <div className='w-full h-full flex justify-between'>
+            <div className='w-[55vw] h-screen'>
+                <img src={SignImg} className='w-full h-full object-cover' alt="Sign In" />
+            </div>
             <div className='w-[25vw] mx-auto my-auto'>
                 <h1 className='flex-center text-2xl mb-10'>Sign In to useCoursia</h1>
                 <div className="flex flex-col items-center mt-4">
@@ -91,9 +94,6 @@ const SignIn = () => {
                 <div className="mt-4 text-center">
                     <p>Haven't an account? <a href="/sign-up" className="text-blue font-semibold hover:underline">Sign Up</a></p>
                 </div>
-            </div>
-            <div className='w-[60vw] h-screen'>
-                <img src={SignImg} className='w-full h-full object-cover' alt="Sign In" />
             </div>
         </div>
     );
